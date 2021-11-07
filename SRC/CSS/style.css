@@ -5,7 +5,44 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+.project {
+  text-align: center;
+  
+}
+.one,
+.two,
+.three {
+  display: inline-block;
+  font-size: 20px;
+}
+.one {
+  position: relative;
+  left: 10vw;
+}
+.two {
+  position: relative;
+  left: 40vw;
+}
+.three {
+  position: relative;
+  left: 70vw;
+}
+.vl{
+    display: inline-block;
+    border-left: 4px solid black;
+    height:700px;
+    position:relative;
+    left:5vw;
+}
+#projects{
+  background-color: #FCF6F5;
+}
 
+hr{
+    border: 2px solid black;
+    position: relative;
+    top: -50vh;
+}
 html {
   scroll-behavior: smooth;
 }
