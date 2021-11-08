@@ -7,11 +7,9 @@
 }
 .project {
   text-align: center;
-  
 }
 .review {
   text-align: center;
-  
 }
 .one,
 .two,
@@ -31,21 +29,34 @@
   position: relative;
   left: 70vw;
 }
-.vl{
-    display: inline-block;
-    border-left: 4px solid black;
-    height:700px;
-    position:relative;
-    left:5vw;
+.logo1,
+.logo2 {
+  color: #333;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
 }
-#projects{
-  background-color: #FCF6F5;
+.logo3 {
+  color: #333;
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.vl {
+  display: inline-block;
+  border-left: 4px solid black;
+  height: 700px;
+  position: relative;
+  left: 5vw;
+}
+#projects {
+  background-color: #fcf6f5;
 }
 
-hr{
-    border: 2px solid black;
-    position: relative;
-    top: -50vh;
+hr {
+  border: 2px solid black;
+  position: relative;
+  top: -50vh;
 }
 html {
   scroll-behavior: smooth;
@@ -242,10 +253,8 @@ section {
   height: 400px;
   width: 400px;
   position: relative;
-   bottom:-10vh
+  bottom: -10vh;
 }
-
-
 
 .about-text {
   color: #000000;
@@ -358,13 +367,42 @@ section {
   justify-content: space-between;
   margin-top: 90px;
 }
-.alpha1{display:inline-block; position: relative; top: -52vh;left:3vw;}
-.alpha2{display:inline-block; position: relative; top: -52vh;left:10vw;}
-.alpha3{display:inline-block; position: relative; top: -52vh;left:15vw;}
-.alpha4{display:inline-block; position: relative; top: -48vh;left:3vw;}
-.alpha5{display:inline-block; position: relative; top: -48vh;left:10vw;}
-.alpha6{display:inline-block; position: relative; top: -48vh;left:17vw;}
-
+.alpha1 {
+  display: inline-block;
+  position: relative;
+  top: -52vh;
+  left: 3vw;
+}
+.alpha2 {
+  display: inline-block;
+  position: relative;
+  top: -52vh;
+  left: 10vw;
+}
+.alpha3 {
+  display: inline-block;
+  position: relative;
+  top: -52vh;
+  left: 15vw;
+}
+.alpha4 {
+  display: inline-block;
+  position: relative;
+  top: -48vh;
+  left: 3vw;
+}
+.alpha5 {
+  display: inline-block;
+  position: relative;
+  top: -48vh;
+  left: 10vw;
+}
+.alpha6 {
+  display: inline-block;
+  position: relative;
+  top: -48vh;
+  left: 17vw;
+}
 
 .contact-form input,
 .contact-form textarea {
@@ -442,11 +480,16 @@ footer {
   font-size: 15px;
   margin-bottom: 20px;
 }
-.arrow{
-  height: 100px; width: 100px; position: relative; left: 85vw;
+.arrow {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 85vw;
 }
-.arrow1{
-  height: 100px; width: 100px; position: relative; 
+.arrow1 {
+  height: 100px;
+  width: 100px;
+  position: relative;
 }
 
 .copyright a {
@@ -454,13 +497,16 @@ footer {
   color: #48dbfb;
   font-weight: 500;
 }
-.project_img{
-  width:400px;
-  height:300px;
+.project_img {
+  width: 400px;
+  height: 300px;
 }
 
-.r1{
-  position: relative; top: -60vh; left: 2vw; font-size: 22px;
+.r1 {
+  position: relative;
+  top: -60vh;
+  left: 2vw;
+  font-size: 22px;
 }
 
 .goTop {
@@ -478,27 +524,51 @@ footer {
   outline: none;
   display: none;
 }
-.review_line{
-  display: inline-block; border-left: 3px solid black; height: 500px; position: relative;left: 1vw; background-color: black;
+.review_line {
+  display: inline-block;
+  border-left: 3px solid black;
+  height: 500px;
+  position: relative;
+  left: 1vw;
+  background-color: black;
 }
-.r2{
-  position: relative; top: -60vh; font-size: 22px;
+.r2 {
+  position: relative;
+  top: -60vh;
+  font-size: 22px;
 }
-.man{position: relative; top: -70vh;left: 4vw;}
-.woman{position: relative; top: -70vh; left: 6vw;}
-.man1{
-  width: 350px; height: 450px; position: relative; top: -50vh; display: inline-block;
+.man {
+  position: relative;
+  top: -70vh;
+  left: 4vw;
 }
-.woman1{
-  width: 350px; height: 450px; position: relative; top: -50vh; left: 4vw; display: inline-block;
+.woman {
+  position: relative;
+  top: -70vh;
+  left: 6vw;
+}
+.man1 {
+  width: 350px;
+  height: 450px;
+  position: relative;
+  top: -50vh;
+  display: inline-block;
+}
+.woman1 {
+  width: 350px;
+  height: 450px;
+  position: relative;
+  top: -50vh;
+  left: 4vw;
+  display: inline-block;
 }
 
 @media screen and (max-width: 980px) {
   .menu-toggler {
     display: block;
   }
-  
-  .review_line{
+
+  .review_line {
     display: none;
   }
 
@@ -513,20 +583,51 @@ footer {
     padding: 80px 50px;
     transition: 0.3s linear;
   }
-  .arrow{
-    height: 50px; width: 50px; position: relative; left: 85vw;
+  .arrow {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 85vw;
   }
-  .arrow1{
-    height: 50px; width: 50px; position: relative; 
+  .arrow1 {
+    height: 50px;
+    width: 50px;
+    position: relative;
   }
-  .r1{
-    position: relative; top: -60vh; left: 2vw; font-size: 16px ;
+  .r1 {
+    position: relative;
+    top: -60vh;
+    left: 2vw;
+    font-size: 16px;
   }
-  .r2{
-    position: relative; top: -60vh; left: 2vw; font-size: 16px ;
+  .r2 {
+    position: relative;
+    top: -60vh;
+    left: 2vw;
+    font-size: 16px;
+  }
+  .logo1,
+  .logo2 {
+    color: #333;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    float: right;
+    position: relative;
+    left: 25vw;
+    top: 4vh;
+  }
+  .logo3 {
+    color: #333;
+    height: 20px;
+    width: 40px;
+    margin: 5px;
+    position: relative;
+    left: 25vw;
+    top: 4vh;
   }
 
-  .hr{
+  .hr {
     position: relative;
     top: 1vh;
     display: none;
@@ -547,42 +648,41 @@ footer {
     height: 200px;
     width: 200px;
     position: relative;
-     bottom:-1vh;
-     left: 3vw
+    bottom: -1vh;
+    left: 3vw;
   }
-  .one, .two, .three{
+  .one,
+  .two,
+  .three {
     font-size: 10px;
     position: relative;
-    
   }
   /* .three{
     position: relative;
     left:2vh
   } */
-  
 
-  .project{
+  .project {
     display: none;
     position: relative;
     top: -25vh;
-    
   }
-  .one, .two, .three{
+  .one,
+  .two,
+  .three {
     display: none;
-    top:-35vh;
+    top: -35vh;
   }
 
-  .vl{
+  .vl {
     display: none;
-    
   }
-  .project_img{
+  .project_img {
     display: none;
-    width:150px;
-    height:100px;
+    width: 150px;
+    height: 100px;
   }
-  
-  
+
   .navbar-menu a {
     display: block;
     font-size: 30px;
@@ -664,21 +764,46 @@ footer {
     margin: 10px 0;
   }
 }
-  .man{position: relative; top: -47vh;left: 10vw;}
-.woman{position: relative; top: -47vh; left: 10vw;}
+.man {
+  position: relative;
+  top: -47vh;
+  left: 10vw;
+}
+.woman {
+  position: relative;
+  top: -47vh;
+  left: 10vw;
+}
 
 @media screen and (max-width: 600px) {
   .inner-width {
     padding: 0 20px;
   }
-  .man{position: relative; top: -47vh;left: 10vw;}
-.woman{position: relative; top: -47vh; left: 10vw;}
-.man1{
-  width: 250px; height: 300px; position: relative; top: -50vh; display: inline-block;
-}
-.woman1{
-  width: 250px; height: 300px; position: relative; top: -50vh; left: 4vw; display: inline-block;
-}
+  .man {
+    position: relative;
+    top: -47vh;
+    left: 10vw;
+  }
+  .woman {
+    position: relative;
+    top: -47vh;
+    left: 10vw;
+  }
+  .man1 {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: -50vh;
+    display: inline-block;
+  }
+  .woman1 {
+    width: 250px;
+    height: 300px;
+    position: relative;
+    top: -50vh;
+    left: 4vw;
+    display: inline-block;
+  }
 
   .content {
     width: calc(50% - 20px);
