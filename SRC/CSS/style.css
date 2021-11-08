@@ -488,6 +488,7 @@ footer {
 .woman1{
   width: 350px; height: 450px; position: relative; top: -50vh; left: 4vw; display: inline-block;
 }
+
 @media screen and (max-width: 980px) {
   .menu-toggler {
     display: block;
@@ -524,6 +525,7 @@ footer {
   .hr{
     position: relative;
     top: 1vh;
+    display: none;
   }
   .titleSection::after {
     width: 300px;
@@ -549,30 +551,34 @@ footer {
     position: relative;
     
   }
-  .three{
+  /* .three{
     position: relative;
-    left:2vw
-  }
-  .alpha{
-    position: relative;
-    top: 20vh;
-  }
+    left:2vh
+  } */
+  
 
   .project{
+    display: none;
     position: relative;
     top: -25vh;
+    
   }
   .one, .two, .three{
+    display: none;
     top:-35vh;
   }
 
   .vl{
     display: none;
+    
   }
   .project_img{
+    display: none;
     width:150px;
     height:100px;
   }
+  
+  
   .navbar-menu a {
     display: block;
     font-size: 30px;
