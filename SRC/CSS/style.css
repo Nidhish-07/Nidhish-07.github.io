@@ -30,8 +30,8 @@
   left: 70vw;
 }
 .logo{
-  height: 75px;
-  width: 75px;
+  height: 80px;
+  width: 80px;
 }
 .logo1,
 .logo2 {
@@ -184,7 +184,7 @@ html {
 .head-subtitle {
   font-family: "Poppins", sans-serif;
   font-size: 88px;
-  color: #ffa588;
+  color: #000000;
   line-height: 132px;
   font-weight: 600;
 }
@@ -414,7 +414,7 @@ section {
   height: 50px;
   margin: 10px 0;
   background: none;
-  border: 1px solid #ffa588;
+  border: 2px solid #2bae66;
   outline: none;
   padding: 20px;
   border-radius: 5px;
@@ -588,8 +588,8 @@ footer {
     transition: 0.3s linear;
   }
   .logo{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
   }
   .arrow {
     height: 50px;
