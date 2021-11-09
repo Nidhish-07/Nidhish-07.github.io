@@ -589,6 +589,18 @@ footer {
     position: relative;
     left: 85vw;
   }
+
+  .contact-info::before {
+    width: 2px;
+    content: "";
+    position: absolute;
+    height: 250px;
+    margin-top: 20px;
+    display: none;
+    background-color: #2bae66;
+    border-radius: 3px;
+    left: calc(67% - 200px);
+  }
   .arrow1 {
     height: 50px;
     width: 50px;
